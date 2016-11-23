@@ -1,0 +1,18 @@
+{
+    "Legionellosis": {
+        "id": "cmap-p7au",
+        "stateColumn": "reporting_area",
+        "dataColumn": "legionellosis_cum_2014",
+        "filters": {
+            "mmwr_year": "2014"
+        }
+    },
+    "Giardiasis": {
+        "id": "cafy-kah2",
+        "stateColumn": "reporting_area",
+        "dataColumn": "giardiasis_cum_2014",
+        "filters": {
+            "mmwr_year": "2014"
+        }
+    }
+}

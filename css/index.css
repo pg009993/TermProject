@@ -1,0 +1,33 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    position: absolute;
+}
+
+iframe {
+    display: inline-block;
+    width: 50%;
+    height: 89%;
+    border: 0;
+}
+
+p {
+    height: 10%;
+    margin: 0;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+
+@media (max-width: 500px){
+    iframe {
+        display: block;
+        width: 100%;
+        height: 45%;
+    }
+}
