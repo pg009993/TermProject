@@ -1,16 +1,56 @@
 {
-    "Legionellosis": {
-        "id": "cmap-p7au",
+    "Dengue Fever": {
+        "id": "7n3i-y9zy",
         "stateColumn": "reporting_area",
-        "dataColumn": "legionellosis_cum_2014",
+        "dataColumn": "dengue_fever_cum_2014",
+        "filters": {
+            "mmwryear": "2014"
+        }
+    },
+    "Lyme Disease": {
+        "id": "b9yw-7xai",
+        "stateColumn": "reporting_area",
+        "dataColumn": "lyme_disease_cum_2014",
         "filters": {
             "mmwr_year": "2014"
         }
     },
-    "Giardiasis": {
+    "Spotted Fever Rickettsiosis": {
+        "id": "s2hm-mxr4",
+        "stateColumn": "reporting_area",
+        "dataColumn": "spotted_fever_rickettsiosis_including_rmsf_confirmed_cum_2014",
+        "filters": {
+            "mmwr_year": "2014"
+        }
+    },
+    "Chlamydia": {
+        "id": "tbrw-z3cz",
+        "stateColumn": "reporting_area",
+        "dataColumn": "chlamydia_trachomatis_infection_cum_2014",
+        "filters": {
+            "mmwr_year": "2014"
+        }
+    },
+    "Gonorrhea": {
         "id": "cafy-kah2",
         "stateColumn": "reporting_area",
-        "dataColumn": "giardiasis_cum_2014",
+        "dataColumn": "gonorrhea_cum_2014",
+        "filters": {
+            "mmwr_year": "2014"
+        }
+    },
+    "Syphilis": {
+        "id": "s2hm-mxr4",
+        "stateColumn": "reporting_area",
+        "dataColumn": "syphilis_primary_and_secondary_cum_2014",
+        "filters": {
+            "mmwr_year": "2014"
+        }
+    },
+    "Hepatitis C": {
+        "id": "g3bc-xvwt",
+        "stateColumn": "reporting_area",
+        "dataColumn": "hepatitis_viral_acute_type_c_cum_2014",
         "filters": {
             "mmwr_year": "2014"
         }
